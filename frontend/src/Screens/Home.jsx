@@ -17,7 +17,7 @@ function Home() {
   };
   useEffect(() => {
     fetchUser();
-  }, [user]);
+  }, [showEditPatient, showPatient]);
 
   return (
     <div className="h-screen bg-gray-100">
